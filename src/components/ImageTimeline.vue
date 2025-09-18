@@ -279,6 +279,11 @@ export default {
     searchQuery() {
       this.pagination.current = 1
       this.loadEventData()
+    },
+    // 监听选中事件的变化，重置到第一页
+    selectedEvent() {
+      this.pagination.current = 1
+      this.loadEventData()
     }
   },
   methods: {
@@ -292,12 +297,13 @@ export default {
         // 如果没有选中事件，默认选择第一个
         if (!this.selectedEvent && this.events.length > 0) {
           this.selectedEvent = this.events[0].uuid
-          this.loadEventData()
+          // loadEventData会在selectedEvent的watch中被调用，所以这里不需要再调用
         }
       } catch (error) {
         console.error('Failed to load events:', error)
       }
     },
+    
     async loadEventData() {
       if (!this.selectedEvent) {
         this.displayData = this.filterData(this.data)
@@ -329,6 +335,13 @@ export default {
       } catch (error) {
         console.error('Failed to load event data:', error)
         this.displayData = []
+        // 如果加载失败，重置分页信息
+        this.pagination = {
+          current: 1,
+          total: 1,
+          count: 0,
+          limit: 10
+        }
       } finally {
         this.loading = false
       }
@@ -439,6 +452,7 @@ export default {
       }
     },
     goToPage(page) {
+      if (page < 1 || page > this.pagination.total) return
       this.pagination.current = page
       this.loadEventData()
     },
