@@ -7,6 +7,7 @@
       class="detection-canvas"
       @load="handleImageLoad"
       @error="handleImageError"
+      @click="handleCanvasClick"
     />
     <div class="image-controls">
       <button 
@@ -231,6 +232,11 @@ export default {
       this.showDetectionBoxes = !this.showDetectionBoxes
     },
     
+    handleCanvasClick() {
+      // 发射点击事件，传递图片src
+      this.$emit('image-click', this.imageSrc)
+    },
+    
     handleImageLoad() {
       // 由内部处理
     },
@@ -255,6 +261,7 @@ export default {
   object-fit: cover;
   border-radius: 8px;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .detection-canvas:hover {

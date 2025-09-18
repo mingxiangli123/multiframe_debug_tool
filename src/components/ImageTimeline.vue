@@ -88,6 +88,7 @@
                 :coordinate-array="item.coordinate_array"
                 @load="handleImageLoad"
                 @error="handleImageError"
+                @image-click="handleImageClick"
               />
               <div class="image-status" v-if="imageStatus[extractFilename(item.full_s3_path)]">
                 <span class="status-badge" :class="imageStatus[extractFilename(item.full_s3_path)].type">
@@ -210,6 +211,13 @@
     <div v-if="displayData.length === 0 && !loading" class="no-data">
       <p>没有找到匹配的数据</p>
     </div>
+
+    <!-- 简单的图片放大弹窗 -->
+    <ImageModal
+      :is-visible="showImageModal"
+      :image-src="modalImageSrc"
+      @close="closeImageModal"
+    />
   </div>
 </template>
 
@@ -217,11 +225,13 @@
 import axios from 'axios'
 import { config } from '../../config.js'
 import DetectionImageCanvas from './DetectionImageCanvas.vue'
+import ImageModal from './ImageModal.vue'
 
 export default {
   name: 'ImageTimeline',
   components: {
-    DetectionImageCanvas
+    DetectionImageCanvas,
+    ImageModal
   },
   props: {
     data: {
@@ -252,7 +262,11 @@ export default {
         message: '',
         success: false
       },
-      imageStatus: {}
+      imageStatus: {},
+      
+      // 新增简单的弹窗状态
+      showImageModal: false,
+      modalImageSrc: ''
     }
   },
   watch: {
@@ -509,6 +523,17 @@ export default {
     },
     handleImageError() {
       // 图片加载失败
+    },
+    
+    // 新增简单的图片点击处理
+    handleImageClick(imageSrc) {
+      this.modalImageSrc = imageSrc
+      this.showImageModal = true
+    },
+    
+    closeImageModal() {
+      this.showImageModal = false
+      this.modalImageSrc = ''
     }
   }
 }
