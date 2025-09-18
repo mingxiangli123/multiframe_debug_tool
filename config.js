@@ -2,31 +2,34 @@
 export const config = {
   // 服务器配置
   server: {
-    host: 'localhost',
+    host: '0.0.0.0',  // 改为0.0.0.0以允许外部访问
     port: 3401
   },
   
   // 前端配置
   frontend: {
-    host: 'localhost',
+    host: '0.0.0.0',  // 改为0.0.0.0以允许外部访问
     port: 3400
   },
+  
+  // 实际服务器IP (用于URL生成)
+  serverIP: '10.30.67.128',
   
   // API基础URL
   api: {
     baseURL: function() {
-      return `http://${this.server.host}:${this.server.port}`
+      return `http://${config.serverIP}:${config.server.port}`
     }
   },
   
   // 获取完整的服务器URL
   getServerURL: function() {
-    return `http://${this.server.host}:${this.server.port}`
+    return `http://${config.serverIP}:${config.server.port}`
   },
   
   // 获取完整的前端URL
   getFrontendURL: function() {
-    return `http://${this.frontend.host}:${this.frontend.port}`
+    return `http://${config.serverIP}:${config.frontend.port}`
   },
   
   // 获取API端点URL

@@ -3,6 +3,7 @@
 # 读取配置文件中的端口信息
 FRONTEND_PORT=3400
 BACKEND_PORT=3401
+SERVER_IP="10.30.67.128"
 
 echo "🚀 Starting CSV Visualization Application..."
 echo "📁 Working directory: $(pwd)"
@@ -146,24 +147,27 @@ fi
 
 echo ""
 echo "🎉 Application started successfully!"
+echo "🌐 Remote Access URLs:"
+echo "📱 Frontend: http://$SERVER_IP:$FRONTEND_PORT"
+echo "🔌 Backend:  http://$SERVER_IP:$BACKEND_PORT"
+echo ""
+echo "📊 API endpoints:"
+echo "   - GET  http://$SERVER_IP:$BACKEND_PORT/api/files"
+echo "   - POST http://$SERVER_IP:$BACKEND_PORT/api/load-file"
+echo "   - GET  http://$SERVER_IP:$BACKEND_PORT/api/data"
+echo "   - GET  http://$SERVER_IP:$BACKEND_PORT/api/stats"
+echo "   - GET  http://$SERVER_IP:$BACKEND_PORT/api/health"
+echo ""
+echo "🏠 Local Access URLs (on server):"
 echo "📱 Frontend: http://localhost:$FRONTEND_PORT"
 echo "🔌 Backend:  http://localhost:$BACKEND_PORT"
-echo "📊 API endpoints:"
-echo "   - GET  http://localhost:$BACKEND_PORT/api/files"
-echo "   - POST http://localhost:$BACKEND_PORT/api/load-file"
-echo "   - GET  http://localhost:$BACKEND_PORT/api/data"
-echo "   - GET  http://localhost:$BACKEND_PORT/api/stats"
-echo "   - GET  http://localhost:$BACKEND_PORT/api/health"
 echo ""
 echo "📝 Logs:"
 echo "   - Backend:  logs/backend.log"
 echo "   - Frontend: logs/frontend.log"
 echo ""
 echo "🛑 To stop the application, run: ./stop.sh"
-
-# 打开浏览器（可选）
-if command -v open &> /dev/null; then
-    echo "🌐 Opening browser..."
-    sleep 2
-    open "http://localhost:$FRONTEND_PORT"
-fi
+echo ""
+echo "⚠️  请确保防火墙已开放端口 $FRONTEND_PORT 和 $BACKEND_PORT"
+echo "   Ubuntu/Debian: sudo ufw allow $FRONTEND_PORT && sudo ufw allow $BACKEND_PORT"
+echo "   CentOS/RHEL: sudo firewall-cmd --permanent --add-port=$FRONTEND_PORT/tcp && sudo firewall-cmd --permanent --add-port=$BACKEND_PORT/tcp && sudo firewall-cmd --reload"
