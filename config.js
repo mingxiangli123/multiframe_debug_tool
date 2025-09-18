@@ -3,17 +3,17 @@ export const config = {
   // 服务器配置
   server: {
     host: '0.0.0.0',  // 改为0.0.0.0以允许外部访问
-    port: 3401
+    port: 8089  // 后端端口
   },
   
   // 前端配置
   frontend: {
     host: '0.0.0.0',  // 改为0.0.0.0以允许外部访问
-    port: 3400
+    port: 8088  // 前端端口
   },
   
   // 实际服务器IP (用于URL生成)
-  serverIP: '10.30.67.128',
+  serverIP: '10.51.64.12',  // 修改为您的IP
   
   // API基础URL
   api: {

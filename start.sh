@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # 读取配置文件中的端口信息
-FRONTEND_PORT=3400
-BACKEND_PORT=3401
-SERVER_IP="10.30.67.128"
+FRONTEND_PORT=8088  # 前端端口
+BACKEND_PORT=8089   # 后端端口
+SERVER_IP="10.51.64.12"  # 修改为您的IP
 
 echo "🚀 Starting CSV Visualization Application..."
 echo "📁 Working directory: $(pwd)"
@@ -147,7 +147,7 @@ fi
 
 echo ""
 echo "🎉 Application started successfully!"
-echo "🌐 Remote Access URLs:"
+echo "🌐 Access URLs:"
 echo "📱 Frontend: http://$SERVER_IP:$FRONTEND_PORT"
 echo "🔌 Backend:  http://$SERVER_IP:$BACKEND_PORT"
 echo ""
