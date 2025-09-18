@@ -306,40 +306,111 @@ app.get('/api/data/by-uuid/:uuid', (req, res) => {
   })
 })
 
-// 获取可用的CSV文件列表
+// 修改 /api/files 接口，直接返回文件内容和列表
 app.get('/api/files', (req, res) => {
   const csvFiles = getCsvFiles()
-  res.json({
-    files: csvFiles,
-    currentFile: currentFile
-  })
-})
-
-// 加载指定的CSV文件
-app.post('/api/load-file', async (req, res) => {
-  const { filename } = req.body
   
-  if (!filename) {
-    return res.status(400).json({ error: 'Filename is required' })
-  }
-  
-  try {
-    await loadCSVData(filename)
-    res.json({ 
-      success: true, 
-      message: `Successfully loaded ${filename}`,
-      records: csvData.length,
-      currentFile: currentFile
+  // 如果没有当前加载的文件，自动加载第一个
+  if (!currentFile && csvFiles.length > 0) {
+    loadCSVData(csvFiles[0])
+      .then(() => {
+        res.json({
+          files: csvFiles,
+          currentFile: currentFile,
+          data: csvData,
+          records: csvData.length
+        })
+      })
+      .catch(error => {
+        res.json({
+          files: csvFiles,
+          currentFile: null,
+          data: [],
+          records: 0,
+          error: error.message
+        })
+      })
+  } else {
+    res.json({
+      files: csvFiles,
+      currentFile: currentFile,
+      data: csvData,
+      records: csvData.length
     })
-  } catch (error) {
-    console.error('Error loading file:', error)
-    res.status(500).json({ error: error.message })
   }
 })
 
+// 简化的数据获取接口
 app.get('/api/data', (req, res) => {
   console.log('API request received for /api/data')
-  res.json(csvData)
+  
+  // 如果没有数据，尝试加载第一个可用文件
+  if (csvData.length === 0) {
+    const csvFiles = getCsvFiles()
+    if (csvFiles.length > 0) {
+      loadCSVData(csvFiles[0])
+        .then(() => {
+          res.json({
+            data: csvData,
+            currentFile: currentFile,
+            records: csvData.length
+          })
+        })
+        .catch(error => {
+          res.status(500).json({ 
+            error: error.message,
+            data: [],
+            records: 0
+          })
+        })
+    } else {
+      res.json({
+        data: [],
+        records: 0,
+        error: 'No CSV files found'
+      })
+    }
+  } else {
+    res.json({
+      data: csvData,
+      currentFile: currentFile,
+      records: csvData.length
+    })
+  }
+})
+
+// 新增：直接获取CSV文件内容的接口
+app.get('/api/csv-content/:filename?', async (req, res) => {
+  try {
+    const { filename } = req.params
+    const csvFiles = getCsvFiles()
+    
+    if (csvFiles.length === 0) {
+      return res.status(404).json({ error: 'No CSV files found' })
+    }
+    
+    // 如果没有指定文件名，使用第一个文件
+    const targetFile = filename || csvFiles[0]
+    
+    if (!csvFiles.includes(targetFile)) {
+      return res.status(404).json({ error: 'CSV file not found' })
+    }
+    
+    // 加载CSV数据
+    await loadCSVData(targetFile)
+    
+    res.json({
+      success: true,
+      filename: targetFile,
+      data: csvData,
+      records: csvData.length,
+      availableFiles: csvFiles
+    })
+    
+  } catch (error) {
+    console.error('Error loading CSV content:', error)
+    res.status(500).json({ error: error.message })
+  }
 })
 
 app.get('/api/stats', (req, res) => {
@@ -419,3 +490,54 @@ loadCSVData()
       console.log(`Server running on ${config.getServerURL()} (no data loaded)`)
     })
   })
+
+// 新增：一体化初始化接口
+app.get('/api/init', async (req, res) => {
+  try {
+    const csvFiles = getCsvFiles()
+    
+    if (csvFiles.length === 0) {
+      return res.json({
+        success: false,
+        error: 'No CSV files found',
+        files: [],
+        data: [],
+        currentFile: null,
+        records: 0
+      })
+    }
+    
+    // 如果没有加载数据，自动加载第一个文件
+    if (csvData.length === 0) {
+      await loadCSVData(csvFiles[0])
+    }
+    
+    res.json({
+      success: true,
+      files: csvFiles,
+      currentFile: currentFile,
+      data: csvData,
+      records: csvData.length,
+      stats: {
+        totalRecords: csvData.length,
+        currentFile: currentFile,
+        timeRange: csvData.length > 0 ? {
+          start: csvData[0].ts,
+          end: csvData[csvData.length - 1].ts
+        } : null,
+        averageDetScore: calculateAverageDetScore()
+      }
+    })
+    
+  } catch (error) {
+    console.error('Initialization error:', error)
+    res.status(500).json({
+      success: false,
+      error: error.message,
+      files: getCsvFiles(),
+      data: [],
+      currentFile: null,
+      records: 0
+    })
+  }
+})

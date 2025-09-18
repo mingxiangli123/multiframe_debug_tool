@@ -96,26 +96,46 @@ export default {
     }
   },
   async mounted() {
-    await this.loadAvailableFiles()
-    await this.loadData()
+    await this.initializeApp()
   },
   methods: {
-    async loadAvailableFiles() {
+    async initializeApp() {
       const toast = useToast()
+      this.loading = true
+      this.loadingMessage = '初始化应用中...'
       
       try {
-        const response = await axios.get(config.getAPIURL('/files'))
-        this.availableFiles = response.data.files
-        this.currentFile = response.data.currentFile
+        const response = await axios.get(config.getAPIURL('/init'))
         
-        if (this.availableFiles.length > 0) {
-          this.selectedFile = this.currentFile || this.availableFiles[0]
+        if (response.data.success) {
+          this.data = response.data.data
+          this.availableFiles = response.data.files
+          this.currentFile = response.data.currentFile
+          this.selectedFile = this.currentFile
+          
+          // 设置统计信息
+          if (response.data.stats) {
+            this.totalRecords = response.data.stats.totalRecords
+            this.averageDetScore = response.data.stats.averageDetScore
+            if (response.data.stats.timeRange) {
+              const start = new Date(response.data.stats.timeRange.start)
+              const end = new Date(response.data.stats.timeRange.end)
+              this.timeRange = `${start.toLocaleDateString()} - ${end.toLocaleDateString()}`
+            }
+          }
+          
+          toast.success(`应用初始化成功! 加载了 ${this.data.length} 条记录`)
+        } else {
+          toast.error(response.data.error || '初始化失败')
         }
       } catch (error) {
-        console.error('获取文件列表失败:', error)
-        toast.error('获取文件列表失败，请检查后端服务')
+        console.error('初始化失败:', error)
+        toast.error('应用初始化失败，请检查后端服务')
+      } finally {
+        this.loading = false
       }
     },
+
     async loadSelectedFile() {
       if (!this.selectedFile) return
       
@@ -124,44 +144,27 @@ export default {
       this.loadingMessage = `加载文件 ${this.selectedFile} 中...`
       
       try {
-        await axios.post(config.getAPIURL('/load-file'), {
-          filename: this.selectedFile
-        })
+        // 使用新的CSV内容接口
+        const response = await axios.get(config.getAPIURL(`/csv-content/${this.selectedFile}`))
         
-        this.currentFile = this.selectedFile
-        await this.loadData()
+        this.data = response.data.data
+        this.currentFile = response.data.filename
+        this.availableFiles = response.data.availableFiles
+        this.calculateStats()
+        
         toast.success(`成功加载文件: ${this.selectedFile}`)
       } catch (error) {
         console.error('加载文件失败:', error)
         toast.error(`加载文件失败: ${error.response?.data?.error || error.message}`)
+      } finally {
         this.loading = false
       }
     },
-    async loadData() {
-      const toast = useToast()
-      this.loadingMessage = '加载数据中...'
 
-      try {
-        const response = await axios.get(config.getAPIURL('/data'))
-        this.data = response.data
-        this.calculateStats()
-        
-        if (!this.currentFile) {
-          // 如果是首次加载，获取当前文件信息
-          const statsResponse = await axios.get(config.getAPIURL('/stats'))
-          this.currentFile = statsResponse.data.currentFile
-        }
-        
-        if (this.data.length > 0) {
-          toast.success(`数据加载成功! 共 ${this.data.length} 条记录`)
-        } else {
-          toast.warning('数据文件为空')
-        }
-      } catch (error) {
-        console.error('加载数据失败:', error)
-        toast.error('加载数据失败，请检查后端服务')
-      } finally {
-        this.loading = false
+    async loadData() {
+      // 这个方法现在可能不需要了，因为数据已经在 loadAvailableFiles 中加载
+      if (this.data.length === 0) {
+        await this.loadAvailableFiles()
       }
     },
     calculateStats() {
