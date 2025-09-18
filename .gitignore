@@ -1,0 +1,7 @@
+*/node_modules
+node_modules
+server/node_modules
+images_cache
+logs
+*.log
+.DS_Store
