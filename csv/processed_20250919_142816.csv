@@ -1,0 +1,830 @@
+uuid,ts,event_seq,full_s3_path,payload_timestamp,mark_summary,cls,coordinate_array,raw_payload,isroll
+7b2c74c4-f33a-4007-9cad-07f8332d2de8,2025-09-18 20:55:22,2,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758228922435_full.jpg,1758228922609,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758228922435_full.jpg"",
+	""eventSeq"":	2,
+	""pictureSeq"":	1,
+	""ts"":	1758228922609,
+	""msgId"":	""LB010131000A701709023P1758228922609""
+}",False
+7b2c74c4-f33a-4007-9cad-07f8332d2de8,2025-09-18 20:55:35,2,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758228935593_full.jpg,1758228935782,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758228935593_full.jpg"",
+	""eventSeq"":	2,
+	""pictureSeq"":	2,
+	""ts"":	1758228935782,
+	""msgId"":	""LB010131000A701709023P1758228935782""
+}",False
+7b2c74c4-f33a-4007-9cad-07f8332d2de8,2025-09-18 20:55:40,2,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758228939846_full.jpg,1758228940061,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758228939846_full.jpg"",
+	""eventSeq"":	2,
+	""pictureSeq"":	3,
+	""ts"":	1758228940061,
+	""msgId"":	""LB010131000A701709023P1758228940061""
+}",False
+7b2c74c4-f33a-4007-9cad-07f8332d2de8,2025-09-18 20:55:44,2,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758228944076_full.jpg,1758228944375,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758228944076_full.jpg"",
+	""eventSeq"":	2,
+	""pictureSeq"":	4,
+	""ts"":	1758228944375,
+	""msgId"":	""LB010131000A701709023P1758228944375""
+}",False
+7b2c74c4-f33a-4007-9cad-07f8332d2de8,2025-09-18 20:55:48,2,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758228948339_full.jpg,1758228948549,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758228948339_full.jpg"",
+	""eventSeq"":	2,
+	""pictureSeq"":	5,
+	""ts"":	1758228948549,
+	""msgId"":	""LB010131000A701709023P1758228948549""
+}",False
+7b2c74c4-f33a-4007-9cad-07f8332d2de8,2025-09-18 20:55:52,2,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758228952336_full.jpg,1758228952503,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758228952336_full.jpg"",
+	""eventSeq"":	2,
+	""pictureSeq"":	6,
+	""ts"":	1758228952503,
+	""msgId"":	""LB010131000A701709023P1758228952503""
+}",False
+7b2c74c4-f33a-4007-9cad-07f8332d2de8,2025-09-18 20:55:56,2,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758228956556_full.jpg,1758228956728,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758228956556_full.jpg"",
+	""eventSeq"":	2,
+	""pictureSeq"":	7,
+	""ts"":	1758228956728,
+	""msgId"":	""LB010131000A701709023P1758228956728""
+}",False
+7b2c74c4-f33a-4007-9cad-07f8332d2de8,2025-09-18 20:56:21,2,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758228981072_full.jpg,1758228981382,"[{""cls"": ""waste"", ""coordinate"": [984, 387, 1056, 459], ""detScore"": 92, ""reidScore"": 53}, {""cls"": ""waste"", ""coordinate"": [939, 342, 1056, 465], ""detScore"": 72, ""reidScore"": 53}, {""cls"": ""waste"", ""coordinate"": [939, 342, 1014, 399], ""detScore"": 64, ""reidScore"": 51}]",waste,"[984, 387, 1056, 459]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	92,
+			""reidScore"":	53,
+			""coordinate"":	[984, 387, 1056, 459]
+		}, {
+			""cls"":	""waste"",
+			""detScore"":	72,
+			""reidScore"":	53,
+			""coordinate"":	[939, 342, 1056, 465]
+		}, {
+			""cls"":	""waste"",
+			""detScore"":	64,
+			""reidScore"":	51,
+			""coordinate"":	[939, 342, 1014, 399]
+		}],
+	""fullId"":	""1758228981072_full.jpg"",
+	""eventSeq"":	2,
+	""pictureSeq"":	8,
+	""ts"":	1758228981382,
+	""msgId"":	""LB010131000A701709023P1758228981382""
+}",True
+d59c9443-494f-4515-8d78-79afa824a303,2025-09-18 21:46:25,3,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758231985668_full.jpg,1758231985882,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758231985668_full.jpg"",
+	""eventSeq"":	3,
+	""pictureSeq"":	1,
+	""ts"":	1758231985882,
+	""msgId"":	""LB010131000A701709023P1758231985882""
+}",False
+d59c9443-494f-4515-8d78-79afa824a303,2025-09-18 21:46:38,3,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758231998766_full.jpg,1758231998976,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758231998766_full.jpg"",
+	""eventSeq"":	3,
+	""pictureSeq"":	2,
+	""ts"":	1758231998976,
+	""msgId"":	""LB010131000A701709023P1758231998976""
+}",False
+d59c9443-494f-4515-8d78-79afa824a303,2025-09-18 21:46:43,3,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758232002995_full.jpg,1758232003219,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758232002995_full.jpg"",
+	""eventSeq"":	3,
+	""pictureSeq"":	3,
+	""ts"":	1758232003219,
+	""msgId"":	""LB010131000A701709023P1758232003219""
+}",False
+d59c9443-494f-4515-8d78-79afa824a303,2025-09-18 21:46:47,3,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758232007249_full.jpg,1758232007466,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758232007249_full.jpg"",
+	""eventSeq"":	3,
+	""pictureSeq"":	4,
+	""ts"":	1758232007466,
+	""msgId"":	""LB010131000A701709023P1758232007466""
+}",False
+d59c9443-494f-4515-8d78-79afa824a303,2025-09-18 21:46:51,3,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758232011479_full.jpg,1758232011701,"[{""cls"": ""waste"", ""coordinate"": [888, 501, 1050, 612], ""detScore"": 80, ""reidScore"": 53}, {""cls"": ""waste"", ""coordinate"": [798, 498, 1005, 612], ""detScore"": 51, ""reidScore"": 52}, {""cls"": ""waste"", ""coordinate"": [798, 492, 897, 576], ""detScore"": 29, ""reidScore"": 48}]",waste,"[888, 501, 1050, 612]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	80,
+			""reidScore"":	53,
+			""coordinate"":	[888, 501, 1050, 612]
+		}, {
+			""cls"":	""waste"",
+			""detScore"":	51,
+			""reidScore"":	52,
+			""coordinate"":	[798, 498, 1005, 612]
+		}, {
+			""cls"":	""waste"",
+			""detScore"":	29,
+			""reidScore"":	48,
+			""coordinate"":	[798, 492, 897, 576]
+		}],
+	""fullId"":	""1758232011479_full.jpg"",
+	""eventSeq"":	3,
+	""pictureSeq"":	5,
+	""ts"":	1758232011701,
+	""msgId"":	""LB010131000A701709023P1758232011701""
+}",False
+d59c9443-494f-4515-8d78-79afa824a303,2025-09-18 21:46:55,3,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758232015472_full.jpg,1758232015644,"[{""cls"": ""waste"", ""coordinate"": [885, 444, 1026, 570], ""detScore"": 86, ""reidScore"": 51}]",waste,"[885, 444, 1026, 570]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	86,
+			""reidScore"":	51,
+			""coordinate"":	[885, 444, 1026, 570]
+		}],
+	""fullId"":	""1758232015472_full.jpg"",
+	""eventSeq"":	3,
+	""pictureSeq"":	6,
+	""ts"":	1758232015644,
+	""msgId"":	""LB010131000A701709023P1758232015644""
+}",False
+d59c9443-494f-4515-8d78-79afa824a303,2025-09-18 21:46:59,3,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758232019736_full.jpg,1758232019920,"[{""cls"": ""waste"", ""coordinate"": [882, 429, 1008, 540], ""detScore"": 30, ""reidScore"": 52}]",waste,"[882, 429, 1008, 540]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	30,
+			""reidScore"":	52,
+			""coordinate"":	[882, 429, 1008, 540]
+		}],
+	""fullId"":	""1758232019736_full.jpg"",
+	""eventSeq"":	3,
+	""pictureSeq"":	7,
+	""ts"":	1758232019920,
+	""msgId"":	""LB010131000A701709023P1758232019920""
+}",False
+d59c9443-494f-4515-8d78-79afa824a303,2025-09-18 21:47:16,3,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758232035882_full.jpg,1758232036074,"[{""cls"": ""waste"", ""coordinate"": [876, 357, 1008, 489], ""detScore"": 93, ""reidScore"": 54}]",waste,"[876, 357, 1008, 489]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	93,
+			""reidScore"":	54,
+			""coordinate"":	[876, 357, 1008, 489]
+		}],
+	""fullId"":	""1758232035882_full.jpg"",
+	""eventSeq"":	3,
+	""pictureSeq"":	8,
+	""ts"":	1758232036074,
+	""msgId"":	""LB010131000A701709023P1758232036074""
+}",True
+568e4145-3a3e-4012-92b7-720cdf05f75a,2025-09-19 01:01:15,4,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758243675169_full.jpg,1758243675382,"[{""cls"": ""waste"", ""coordinate"": [861, 843, 894, 873], ""detScore"": 87, ""reidScore"": 57}]",waste,"[861, 843, 894, 873]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	87,
+			""reidScore"":	57,
+			""coordinate"":	[861, 843, 894, 873]
+		}],
+	""fullId"":	""1758243675169_full.jpg"",
+	""eventSeq"":	4,
+	""pictureSeq"":	1,
+	""ts"":	1758243675382,
+	""msgId"":	""LB010131000A701709023P1758243675382""
+}",False
+568e4145-3a3e-4012-92b7-720cdf05f75a,2025-09-19 01:01:28,4,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758243688321_full.jpg,1758243688534,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758243688321_full.jpg"",
+	""eventSeq"":	4,
+	""pictureSeq"":	2,
+	""ts"":	1758243688534,
+	""msgId"":	""LB010131000A701709023P1758243688534""
+}",False
+568e4145-3a3e-4012-92b7-720cdf05f75a,2025-09-19 01:01:32,4,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758243692561_full.jpg,1758243692804,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758243692561_full.jpg"",
+	""eventSeq"":	4,
+	""pictureSeq"":	3,
+	""ts"":	1758243692804,
+	""msgId"":	""LB010131000A701709023P1758243692804""
+}",False
+568e4145-3a3e-4012-92b7-720cdf05f75a,2025-09-19 01:01:37,4,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758243696799_full.jpg,1758243697060,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758243696799_full.jpg"",
+	""eventSeq"":	4,
+	""pictureSeq"":	4,
+	""ts"":	1758243697060,
+	""msgId"":	""LB010131000A701709023P1758243697060""
+}",False
+568e4145-3a3e-4012-92b7-720cdf05f75a,2025-09-19 01:01:41,4,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758243701113_full.jpg,1758243701355,"[{""cls"": ""waste"", ""coordinate"": [858, 480, 990, 597], ""detScore"": 93, ""reidScore"": 54}]",waste,"[858, 480, 990, 597]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	93,
+			""reidScore"":	54,
+			""coordinate"":	[858, 480, 990, 597]
+		}],
+	""fullId"":	""1758243701113_full.jpg"",
+	""eventSeq"":	4,
+	""pictureSeq"":	5,
+	""ts"":	1758243701355,
+	""msgId"":	""LB010131000A701709023P1758243701355""
+}",False
+568e4145-3a3e-4012-92b7-720cdf05f75a,2025-09-19 01:01:45,4,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758243705099_full.jpg,1758243705330,"[{""cls"": ""waste"", ""coordinate"": [846, 429, 972, 561], ""detScore"": 93, ""reidScore"": 54}, {""cls"": ""waste"", ""coordinate"": [978, 483, 1047, 546], ""detScore"": 36, ""reidScore"": 56}]",waste,"[846, 429, 972, 561]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	93,
+			""reidScore"":	54,
+			""coordinate"":	[846, 429, 972, 561]
+		}, {
+			""cls"":	""waste"",
+			""detScore"":	36,
+			""reidScore"":	56,
+			""coordinate"":	[978, 483, 1047, 546]
+		}],
+	""fullId"":	""1758243705099_full.jpg"",
+	""eventSeq"":	4,
+	""pictureSeq"":	6,
+	""ts"":	1758243705330,
+	""msgId"":	""LB010131000A701709023P1758243705330""
+}",False
+568e4145-3a3e-4012-92b7-720cdf05f75a,2025-09-19 01:01:49,4,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758243709405_full.jpg,1758243709644,"[{""cls"": ""waste"", ""coordinate"": [831, 426, 1032, 537], ""detScore"": 77, ""reidScore"": 55}, {""cls"": ""waste"", ""coordinate"": [939, 435, 1038, 510], ""detScore"": 41, ""reidScore"": 55}]",waste,"[831, 426, 1032, 537]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	77,
+			""reidScore"":	55,
+			""coordinate"":	[831, 426, 1032, 537]
+		}, {
+			""cls"":	""waste"",
+			""detScore"":	41,
+			""reidScore"":	55,
+			""coordinate"":	[939, 435, 1038, 510]
+		}],
+	""fullId"":	""1758243709405_full.jpg"",
+	""eventSeq"":	4,
+	""pictureSeq"":	7,
+	""ts"":	1758243709644,
+	""msgId"":	""LB010131000A701709023P1758243709644""
+}",False
+568e4145-3a3e-4012-92b7-720cdf05f75a,2025-09-19 01:02:05,4,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758243725714_full.jpg,1758243725991,"[{""cls"": ""waste"", ""coordinate"": [828, 336, 978, 483], ""detScore"": 93, ""reidScore"": 54}, {""cls"": ""waste"", ""coordinate"": [981, 408, 1032, 471], ""detScore"": 89, ""reidScore"": 54}]",waste,"[828, 336, 978, 483]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	93,
+			""reidScore"":	54,
+			""coordinate"":	[828, 336, 978, 483]
+		}, {
+			""cls"":	""waste"",
+			""detScore"":	89,
+			""reidScore"":	54,
+			""coordinate"":	[981, 408, 1032, 471]
+		}],
+	""fullId"":	""1758243725714_full.jpg"",
+	""eventSeq"":	4,
+	""pictureSeq"":	8,
+	""ts"":	1758243725991,
+	""msgId"":	""LB010131000A701709023P1758243725991""
+}",True
+05549365-1afa-41be-9dd7-2a10ac347f2d,2025-09-19 04:04:15,5,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758254654753_full.jpg,1758254655048,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758254654753_full.jpg"",
+	""eventSeq"":	5,
+	""pictureSeq"":	1,
+	""ts"":	1758254655048,
+	""msgId"":	""LB010131000A701709023P1758254655048""
+}",False
+05549365-1afa-41be-9dd7-2a10ac347f2d,2025-09-19 04:04:28,5,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758254667609_full.jpg,1758254668041,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758254667609_full.jpg"",
+	""eventSeq"":	5,
+	""pictureSeq"":	2,
+	""ts"":	1758254668041,
+	""msgId"":	""LB010131000A701709023P1758254668041""
+}",False
+05549365-1afa-41be-9dd7-2a10ac347f2d,2025-09-19 04:04:32,5,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758254671837_full.jpg,1758254672240,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758254671837_full.jpg"",
+	""eventSeq"":	5,
+	""pictureSeq"":	3,
+	""ts"":	1758254672240,
+	""msgId"":	""LB010131000A701709023P1758254672240""
+}",False
+05549365-1afa-41be-9dd7-2a10ac347f2d,2025-09-19 04:04:36,5,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758254675818_full.jpg,1758254676159,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758254675818_full.jpg"",
+	""eventSeq"":	5,
+	""pictureSeq"":	4,
+	""ts"":	1758254676159,
+	""msgId"":	""LB010131000A701709023P1758254676159""
+}",False
+05549365-1afa-41be-9dd7-2a10ac347f2d,2025-09-19 04:04:40,5,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758254680052_full.jpg,1758254680380,"[{""cls"": ""waste"", ""coordinate"": [573, 153, 615, 207], ""detScore"": 29, ""reidScore"": 56}]",waste,"[573, 153, 615, 207]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	29,
+			""reidScore"":	56,
+			""coordinate"":	[573, 153, 615, 207]
+		}],
+	""fullId"":	""1758254680052_full.jpg"",
+	""eventSeq"":	5,
+	""pictureSeq"":	5,
+	""ts"":	1758254680380,
+	""msgId"":	""LB010131000A701709023P1758254680380""
+}",False
+05549365-1afa-41be-9dd7-2a10ac347f2d,2025-09-19 04:04:44,5,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758254684301_full.jpg,1758254684605,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758254684301_full.jpg"",
+	""eventSeq"":	5,
+	""pictureSeq"":	6,
+	""ts"":	1758254684605,
+	""msgId"":	""LB010131000A701709023P1758254684605""
+}",False
+05549365-1afa-41be-9dd7-2a10ac347f2d,2025-09-19 04:04:48,5,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758254688528_full.jpg,1758254688857,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758254688528_full.jpg"",
+	""eventSeq"":	5,
+	""pictureSeq"":	7,
+	""ts"":	1758254688857,
+	""msgId"":	""LB010131000A701709023P1758254688857""
+}",False
+05549365-1afa-41be-9dd7-2a10ac347f2d,2025-09-19 04:05:05,5,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758254704636_full.jpg,1758254705064,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758254704636_full.jpg"",
+	""eventSeq"":	5,
+	""pictureSeq"":	8,
+	""ts"":	1758254705064,
+	""msgId"":	""LB010131000A701709023P1758254705064""
+}",True
+3b34f68b-45fe-4001-9230-1ac62c592c83,2025-09-19 05:14:46,6,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758258886173_full.jpg,1758258886458,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758258886173_full.jpg"",
+	""eventSeq"":	6,
+	""pictureSeq"":	1,
+	""ts"":	1758258886458,
+	""msgId"":	""LB010131000A701709023P1758258886458""
+}",False
+3b34f68b-45fe-4001-9230-1ac62c592c83,2025-09-19 05:14:59,6,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758258899273_full.jpg,1758258899614,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758258899273_full.jpg"",
+	""eventSeq"":	6,
+	""pictureSeq"":	2,
+	""ts"":	1758258899614,
+	""msgId"":	""LB010131000A701709023P1758258899614""
+}",False
+3b34f68b-45fe-4001-9230-1ac62c592c83,2025-09-19 05:15:03,6,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758258903506_full.jpg,1758258903704,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758258903506_full.jpg"",
+	""eventSeq"":	6,
+	""pictureSeq"":	3,
+	""ts"":	1758258903704,
+	""msgId"":	""LB010131000A701709023P1758258903704""
+}",False
+3b34f68b-45fe-4001-9230-1ac62c592c83,2025-09-19 05:15:08,6,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758258907753_full.jpg,1758258908009,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758258907753_full.jpg"",
+	""eventSeq"":	6,
+	""pictureSeq"":	4,
+	""ts"":	1758258908009,
+	""msgId"":	""LB010131000A701709023P1758258908009""
+}",False
+3b34f68b-45fe-4001-9230-1ac62c592c83,2025-09-19 05:15:21,6,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758258920506_full.jpg,1758258921140,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758258920506_full.jpg"",
+	""eventSeq"":	6,
+	""pictureSeq"":	5,
+	""ts"":	1758258921140,
+	""msgId"":	""LB010131000A701709023P1758258921140""
+}",False
+3b34f68b-45fe-4001-9230-1ac62c592c83,2025-09-19 05:15:25,6,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758258924786_full.jpg,1758258925230,"[{""cls"": ""waste"", ""coordinate"": [1002, 399, 1146, 546], ""detScore"": 85, ""reidScore"": 55}]",waste,"[1002, 399, 1146, 546]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	85,
+			""reidScore"":	55,
+			""coordinate"":	[1002, 399, 1146, 546]
+		}],
+	""fullId"":	""1758258924786_full.jpg"",
+	""eventSeq"":	6,
+	""pictureSeq"":	6,
+	""ts"":	1758258925230,
+	""msgId"":	""LB010131000A701709023P1758258925230""
+}",False
+3b34f68b-45fe-4001-9230-1ac62c592c83,2025-09-19 05:15:29,6,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758258929084_full.jpg,1758258929429,"[{""cls"": ""waste"", ""coordinate"": [1014, 381, 1140, 510], ""detScore"": 91, ""reidScore"": 53}]",waste,"[1014, 381, 1140, 510]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	91,
+			""reidScore"":	53,
+			""coordinate"":	[1014, 381, 1140, 510]
+		}],
+	""fullId"":	""1758258929084_full.jpg"",
+	""eventSeq"":	6,
+	""pictureSeq"":	7,
+	""ts"":	1758258929429,
+	""msgId"":	""LB010131000A701709023P1758258929429""
+}",False
+3b34f68b-45fe-4001-9230-1ac62c592c83,2025-09-19 05:15:45,6,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758258945354_full.jpg,1758258945725,"[{""cls"": ""waste"", ""coordinate"": [981, 408, 1137, 513], ""detScore"": 93, ""reidScore"": 59}]",waste,"[981, 408, 1137, 513]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	93,
+			""reidScore"":	59,
+			""coordinate"":	[981, 408, 1137, 513]
+		}],
+	""fullId"":	""1758258945354_full.jpg"",
+	""eventSeq"":	6,
+	""pictureSeq"":	8,
+	""ts"":	1758258945725,
+	""msgId"":	""LB010131000A701709023P1758258945725""
+}",True
+6bb16ae4-1c6c-4de8-8a38-66e5c13061c7,2025-09-19 07:58:12,7,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758268692505_full.jpg,1758268692754,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758268692505_full.jpg"",
+	""eventSeq"":	7,
+	""pictureSeq"":	1,
+	""ts"":	1758268692754,
+	""msgId"":	""LB010131000A701709023P1758268692754""
+}",False
+6bb16ae4-1c6c-4de8-8a38-66e5c13061c7,2025-09-19 07:58:25,7,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758268705318_full.jpg,1758268705540,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758268705318_full.jpg"",
+	""eventSeq"":	7,
+	""pictureSeq"":	2,
+	""ts"":	1758268705540,
+	""msgId"":	""LB010131000A701709023P1758268705540""
+}",False
+6bb16ae4-1c6c-4de8-8a38-66e5c13061c7,2025-09-19 07:58:29,7,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758268709557_full.jpg,1758268709796,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758268709557_full.jpg"",
+	""eventSeq"":	7,
+	""pictureSeq"":	3,
+	""ts"":	1758268709796,
+	""msgId"":	""LB010131000A701709023P1758268709796""
+}",False
+6bb16ae4-1c6c-4de8-8a38-66e5c13061c7,2025-09-19 07:58:34,7,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758268713825_full.jpg,1758268714040,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758268713825_full.jpg"",
+	""eventSeq"":	7,
+	""pictureSeq"":	4,
+	""ts"":	1758268714040,
+	""msgId"":	""LB010131000A701709023P1758268714040""
+}",False
+6bb16ae4-1c6c-4de8-8a38-66e5c13061c7,2025-09-19 07:58:38,7,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758268718075_full.jpg,1758268718295,"[{""cls"": ""waste"", ""coordinate"": [936, 516, 1119, 597], ""detScore"": 34, ""reidScore"": 56}]",waste,"[936, 516, 1119, 597]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	34,
+			""reidScore"":	56,
+			""coordinate"":	[936, 516, 1119, 597]
+		}],
+	""fullId"":	""1758268718075_full.jpg"",
+	""eventSeq"":	7,
+	""pictureSeq"":	5,
+	""ts"":	1758268718295,
+	""msgId"":	""LB010131000A701709023P1758268718295""
+}",False
+6bb16ae4-1c6c-4de8-8a38-66e5c13061c7,2025-09-19 07:58:42,7,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758268722037_full.jpg,1758268722255,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758268722037_full.jpg"",
+	""eventSeq"":	7,
+	""pictureSeq"":	6,
+	""ts"":	1758268722255,
+	""msgId"":	""LB010131000A701709023P1758268722255""
+}",False
+6bb16ae4-1c6c-4de8-8a38-66e5c13061c7,2025-09-19 07:58:46,7,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758268726275_full.jpg,1758268726527,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758268726275_full.jpg"",
+	""eventSeq"":	7,
+	""pictureSeq"":	7,
+	""ts"":	1758268726527,
+	""msgId"":	""LB010131000A701709023P1758268726527""
+}",False
+6bb16ae4-1c6c-4de8-8a38-66e5c13061c7,2025-09-19 07:59:02,7,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758268742719_full.jpg,1758268742971,"[{""cls"": ""waste"", ""coordinate"": [1044, 330, 1167, 378], ""detScore"": 69, ""reidScore"": 52}, {""cls"": ""waste"", ""coordinate"": [411, 63, 579, 216], ""detScore"": 44, ""reidScore"": 51}]",waste,"[1044, 330, 1167, 378]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	69,
+			""reidScore"":	52,
+			""coordinate"":	[1044, 330, 1167, 378]
+		}, {
+			""cls"":	""waste"",
+			""detScore"":	44,
+			""reidScore"":	51,
+			""coordinate"":	[411, 63, 579, 216]
+		}],
+	""fullId"":	""1758268742719_full.jpg"",
+	""eventSeq"":	7,
+	""pictureSeq"":	8,
+	""ts"":	1758268742971,
+	""msgId"":	""LB010131000A701709023P1758268742971""
+}",True
+1a245a46-dad3-499c-8a4a-e591c80211bd,2025-09-19 17:22:04,8,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758302523671_full.jpg,1758302524023,"[{""cls"": ""waste"", ""coordinate"": [786, 768, 903, 936], ""detScore"": 93, ""reidScore"": 58}]",waste,"[786, 768, 903, 936]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	93,
+			""reidScore"":	58,
+			""coordinate"":	[786, 768, 903, 936]
+		}],
+	""fullId"":	""1758302523671_full.jpg"",
+	""eventSeq"":	8,
+	""pictureSeq"":	1,
+	""ts"":	1758302524023,
+	""msgId"":	""LB010131000A701709023P1758302524023""
+}",False
+1a245a46-dad3-499c-8a4a-e591c80211bd,2025-09-19 17:22:17,8,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758302536860_full.jpg,1758302537037,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758302536860_full.jpg"",
+	""eventSeq"":	8,
+	""pictureSeq"":	2,
+	""ts"":	1758302537037,
+	""msgId"":	""LB010131000A701709023P1758302537037""
+}",False
+1a245a46-dad3-499c-8a4a-e591c80211bd,2025-09-19 17:22:21,8,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758302541109_full.jpg,1758302541283,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758302541109_full.jpg"",
+	""eventSeq"":	8,
+	""pictureSeq"":	3,
+	""ts"":	1758302541283,
+	""msgId"":	""LB010131000A701709023P1758302541283""
+}",False
+1a245a46-dad3-499c-8a4a-e591c80211bd,2025-09-19 17:22:25,8,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758302545358_full.jpg,1758302545537,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758302545358_full.jpg"",
+	""eventSeq"":	8,
+	""pictureSeq"":	4,
+	""ts"":	1758302545537,
+	""msgId"":	""LB010131000A701709023P1758302545537""
+}",False
+1a245a46-dad3-499c-8a4a-e591c80211bd,2025-09-19 17:22:29,8,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758302549319_full.jpg,1758302549493,"[{""cls"": ""waste"", ""coordinate"": [0, 0, 0, 0], ""detScore"": 0, ""reidScore"": 0}]",waste,"[0, 0, 0, 0]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	0,
+			""reidScore"":	0,
+			""coordinate"":	[0, 0, 0, 0]
+		}],
+	""fullId"":	""1758302549319_full.jpg"",
+	""eventSeq"":	8,
+	""pictureSeq"":	5,
+	""ts"":	1758302549493,
+	""msgId"":	""LB010131000A701709023P1758302549493""
+}",False
+1a245a46-dad3-499c-8a4a-e591c80211bd,2025-09-19 17:22:33,8,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758302553557_full.jpg,1758302553775,"[{""cls"": ""waste"", ""coordinate"": [708, 483, 843, 573], ""detScore"": 89, ""reidScore"": 55}]",waste,"[708, 483, 843, 573]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	89,
+			""reidScore"":	55,
+			""coordinate"":	[708, 483, 843, 573]
+		}],
+	""fullId"":	""1758302553557_full.jpg"",
+	""eventSeq"":	8,
+	""pictureSeq"":	6,
+	""ts"":	1758302553775,
+	""msgId"":	""LB010131000A701709023P1758302553775""
+}",False
+1a245a46-dad3-499c-8a4a-e591c80211bd,2025-09-19 17:22:38,8,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758302557832_full.jpg,1758302558035,"[{""cls"": ""waste"", ""coordinate"": [708, 447, 843, 537], ""detScore"": 90, ""reidScore"": 54}]",waste,"[708, 447, 843, 537]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	90,
+			""reidScore"":	54,
+			""coordinate"":	[708, 447, 843, 537]
+		}],
+	""fullId"":	""1758302557832_full.jpg"",
+	""eventSeq"":	8,
+	""pictureSeq"":	7,
+	""ts"":	1758302558035,
+	""msgId"":	""LB010131000A701709023P1758302558035""
+}",False
+1a245a46-dad3-499c-8a4a-e591c80211bd,2025-09-19 17:22:54,8,s3://hls-video-cloud-storage-test-hk/member/199012549/device/LB010131000A701709023P/1758302574174_full.jpg,1758302574376,"[{""cls"": ""waste"", ""coordinate"": [702, 318, 963, 489], ""detScore"": 92, ""reidScore"": 52}, {""cls"": ""waste"", ""coordinate"": [1044, 330, 1161, 387], ""detScore"": 32, ""reidScore"": 51}]",waste,"[702, 318, 963, 489]","{
+	""cmd"":	""FECES_RECOGNITION_EVENTS"",
+	""markSummary"":	[{
+			""cls"":	""waste"",
+			""detScore"":	92,
+			""reidScore"":	52,
+			""coordinate"":	[702, 318, 963, 489]
+		}, {
+			""cls"":	""waste"",
+			""detScore"":	32,
+			""reidScore"":	51,
+			""coordinate"":	[1044, 330, 1161, 387]
+		}],
+	""fullId"":	""1758302574174_full.jpg"",
+	""eventSeq"":	8,
+	""pictureSeq"":	8,
+	""ts"":	1758302574376,
+	""msgId"":	""LB010131000A701709023P1758302574376""
+}",True
